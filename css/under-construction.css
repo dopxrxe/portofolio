@@ -1,0 +1,32 @@
+body {
+    background-color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #2d4059;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    margin: 0 !important;
+}
+
+.mediaSocial {
+    color: #2d4059;
+}
+
+.imgInfo {
+    padding: 90px 20px;
+}
+
+.hashtag-info {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.headTitle-info {
+    font-size: 50px;
+    font-weight: 900;
+}
