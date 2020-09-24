@@ -13,3 +13,8 @@
     background: linear-gradient(45deg, #9cada4 0%, #baccc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a8c6ee', endColorstr='#baccc2', GradientType=1);
 } */
+
+
+.summary p {
+    text-align: justify;
+}
