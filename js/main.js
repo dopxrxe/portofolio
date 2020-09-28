@@ -89,26 +89,26 @@
 	};
 
 	// Set Skill Progress
-	metronal.setSkillProgress = function() {
-		// Select skill
-		var skill = $('.single-skill');
-		for (var i = 0; i < skill.length; i++) {
-			if (skill.eq(i).find('.percentage')[0].textContent == '100%') {
-				skill
-					.eq(i)
-					.find('.progress-wrapper .progress')
-					.css({
-						'width': skill.eq(i).find('.percentage')[0].textContent,
-						'borderRight': 0
-					});
-			} else {
-				skill
-					.eq(i)
-					.find('.progress-wrapper .progress')
-					.css('width', skill.eq(i).find('.percentage')[0].textContent);
-			}
-		}
-	};
+	// metronal.setSkillProgress = function() {
+	// 	// Select skill
+	// 	var skill = $('.single-skill');
+	// 	for (var i = 0; i < skill.length; i++) {
+	// 		if (skill.eq(i).find('.percentage')[0].textContent == '100%') {
+	// 			skill
+	// 				.eq(i)
+	// 				.find('.progress-wrapper .progress')
+	// 				.css({
+	// 					'width': skill.eq(i).find('.percentage')[0].textContent,
+	// 					'borderRight': 0
+	// 				});
+	// 		} else {
+	// 			skill
+	// 				.eq(i)
+	// 				.find('.progress-wrapper .progress')
+	// 				.css('width', skill.eq(i).find('.percentage')[0].textContent);
+	// 		}
+	// 	}
+	// };
 
 	// Use Typed
 	metronal.useTyped = function() {
@@ -263,7 +263,7 @@
 			metronal.replaceVHeight(),
 			metronal.portfolioFilter.init(),
 			metronal.useMagnificPopup(),
-			metronal.setSkillProgress(),
+			// metronal.setSkillProgress(),
 			metronal.progressAnimation(),
 			metronal.useTyped(),
 			metronal.processContactForm();
