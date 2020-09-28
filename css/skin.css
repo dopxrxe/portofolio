@@ -393,7 +393,7 @@
 
 .main-content#resume .inner-content .content .skills .single-skills-wrapper>ul,
 .main-content#resume .inner-content .content .education .single-education>ul,
-.main-content#resume .inner-content .cozntent .experience .single-experience>ul {
+.main-content#resume .inner-content .content .experience .single-experience>ul {
   border-color: #f0f6fb;
 }
 
@@ -425,12 +425,12 @@
 }
 
 .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
-  background: #f0f6fb;
-  background: -webkit-linear-gradient(45deg, #f0f6fb 25%, transparent 25%, transparent 50%, #f0f6fb 50%, #f0f6fb 75%, transparent 75%, transparent);
-  background: -moz-linear-gradient(45deg, #f0f6fb 25%, transparent 25%, transparent 50%, #f0f6fb 50%, #f0f6fb 75%, transparent 75%, transparent);
-  background: -ms-linear-gradient(45deg, #f0f6fb 25%, transparent 25%, transparent 50%, #f0f6fb 50%, #f0f6fb 75%, transparent 75%, transparent);
-  background: -o-linear-gradient(45deg, #f0f6fb 25%, transparent 25%, transparent 50%, #f0f6fb 50%, #f0f6fb 75%, transparent 75%, transparent);
-  background: linear-gradient(45deg, #f0f6fb 25%, transparent 25%, transparent 50%, #f0f6fb 50%, #f0f6fb 75%, transparent 75%, transparent);
+  background: #ddd;
+  background: -webkit-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 50%, #ddd 50%, #ddd 75%, transparent 75%, transparent);
+  background: -moz-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 50%, #ddd 50%, #ddd 75%, transparent 75%, transparent);
+  background: -ms-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 50%, #ddd 50%, #ddd 75%, transparent 75%, transparent);
+  background: -o-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 50%, #ddd 50%, #ddd 75%, transparent 75%, transparent);
+  background: linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 50%, #ddd 50%, #ddd 75%, transparent 75%, transparent);
   border-right-color: #f0f6fb;
 }
 
